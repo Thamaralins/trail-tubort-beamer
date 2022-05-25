@@ -1,76 +1,50 @@
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[t]{Introdução} 
-    \transdissolve[duration=0.5]
-    Um dos pontos importantes na área da robótica é a interação entre os sistemas, e em decorrência ao programa de formação em robótica uma das lacunas será preenchida com o desenvolvimento do desafio 2.5..
+\begin{frame}[c]{Justificativa}
+    \begin{itemize}
+        \item acompanhamento, monitoramento e investigação subaquático
+        \item dificuldade de acesso para mergulhadores
+        \item regiões de riscos para os mergulhadores
+    \end{itemize}
 
-    O desafio consiste em:
-    %\newline
-        \begin{columns}[t]
-            \column{.05\linewidth}
-            \column{.4\linewidth}
-                \begin{enumerate}
-                    \item assimilar o conhecimento da interação em robots;
-                    \item compreender em profundidade os conceitos de simulação, e o;
-                    \item desenvolvimento da liderança em projetos \cite{Mohan2015}.
-                \end{enumerate}
-            \column{.6\linewidth}
-            \begin{center}
-            %\centerline{
-                \begin{figure}
-                    %\includegraphics[width=1\textwidth]{pista}
-                    \caption{Pista de corrida \cite{agostini2007}}
-                    \roundpic[xshift=0cm,yshift=0cm]{2.5cm}{6cm}{pista}
-                    %\caption{Pista de corrida \cite{agostini2007}}
-                \end{figure}
-            %}
-            \end{center}
-        \end{columns}
+    \begin{figure}
+        \includegraphics[trim = 0 20 0 50, clip, width=0.8\textwidth]{darwin-op-sequencia}
+        %\caption{.}
+    \end{figure}
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
 %-
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{Objetivo} 
-    \framesubtitle{sub-objetivo}
-    \transdissolve[duration=0.5]
+\begin{frame}[t]{Objetivos}
+    Objetivo Geral
+    \newline
+    Desenvolver um modelo de veículo submarino para a navegação em águas rasas.
+    \newline
+
+    Objetivos Específicos
+    \begin{itemize}
+        \item Realizar o estudo do estado da arte
+        \item Realizar o desing da estrutura do submarino
+        \item Realizae simuolações (CFD,ROS)
+        \item Desenvolver o planejamento dos experimentos
+        \item Desenvolver artigos científicos
+    \end{itemize}
    
-    \begin{center}
-        \Wider{%
-        \begin{shaded}
-        \begin{center}
-            \vspace*{0.5cm}
-            \resizebox{!}{0.7cm}{%
-                \color{bg} O objetivo é ter um objetivo.
-            }%
-        \end{center}
-        \end{shaded}
-        }%
-    \end{center}
-    
-   
+
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
 %-
-{
-\setbeamertemplate{background}
-{\includegraphics[trim = 0 0 0 0, clip, width = \the\paperwidth, height = \the\paperheight]{marcel-knupfer-37wuETxVwTQ-unsplash.jpg}}
 %*----------- SLIDE -------------------------------------------------------------
-\begin{frame}[c]{}
-    \transboxout[duration=0.5]
-    
-    \begin{columns}
-        \column{.1\textwidth}
-        \column{.3\textwidth}
-        \column{.53\textwidth}
-            \vspace*{-3.5cm}
-            \Huge{\textbf{\textcolor{mracula5}{Quando chovia...}}}
-    \end{columns}
+\begin{frame}[c]{Metodologia }
+    %\transboxin[duration=1,direction=30]
+        \begin{figure}
+        \includegraphics[width=.8\textwidth]{metodologia.png}
+    \end{figure}
 %*----------- notes
     \note[item]{Notes can help you to remember important information. Turn on the notes option.}
 \end{frame}
 %-
-}
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[t]{O sistema robótico}
     \transboxout[duration=0.5]
@@ -142,8 +116,7 @@
 %*----------- SLIDE -------------------------------------------------------------
 \begin{frame}[t]{O sistema robótico}
     \transboxout[duration=0.5]
-    \framesubtitle{PlantUML}
-    
+      
     \tikzstyle{every node}=[draw=black,thick,anchor=west]
     \tikzstyle{selected}=[draw=red,fill=red!30]
     \tikzstyle{optional}=[dashed,fill=gray!50]
